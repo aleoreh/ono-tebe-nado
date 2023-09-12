@@ -1,1 +1,17 @@
 /* место для вашего кода */
+* {
+  outline: 1px dotted gray;
+}
+
+.header {
+  min-height: 290px;
+}
+
+.header__logo {
+  max-width: 148px;
+}
+
+.address a,
+.address span {
+  display: block;
+}
