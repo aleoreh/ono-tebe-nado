@@ -10,9 +10,6 @@
   padding: 90px 50px;
 }
 
-.header__menu {
-}
-
 .header__links-list {
   display: flex;
   gap: 32px;
@@ -22,6 +19,7 @@
 .header__links-list-item {
   list-style-type: none;
   position: relative;
+  border-bottom: 1px solid #000;
 }
 
 .header__links-list-item::before {
@@ -36,8 +34,8 @@
   padding-right: 0;
 }
 
-.header__links-list-item::marker {
-  font-size: 20px;
+.header__links-list-item_no-bullit {
+  border-bottom: none;
 }
 
 .header__links-list-item_no-bullit::before {
@@ -46,6 +44,7 @@
 
 .header__link {
   font-size: 18px;
+  text-decoration: none;
 }
 
 .header__logo {
