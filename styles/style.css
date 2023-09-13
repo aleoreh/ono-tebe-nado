@@ -20,7 +20,16 @@
 }
 
 .header__links-list-item {
-  list-style-type: circle;
+  list-style-type: none;
+  position: relative;
+}
+
+.header__links-list-item::before {
+  position: absolute;
+  top: -3px;
+  left: -22px;
+  content: "○";
+  font-size: 22px;
 }
 
 .header__links-list-item:last-child {
@@ -31,8 +40,8 @@
   font-size: 20px;
 }
 
-.header__links-list-item_no-bullit {
-  list-style-type: none;
+.header__links-list-item_no-bullit::before {
+  content: "";
 }
 
 .header__link {
