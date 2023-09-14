@@ -104,7 +104,7 @@
   /* background-color: #eee; */
   background-color: #27194c;
   background-image: url(../images/cover.jpg);
-  color: #000;
+  color: #fff;
 }
 
 .cover__title {
@@ -175,26 +175,34 @@
 
 /* lots */
 
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
 .lots__card-list-item {
+  flex-grow: 1;
+  min-height: 450px;
   list-style: none;
+  flex-basis: 420px;
 }
 
 /* card */
 
 .card {
   position: relative;
-  padding: 40px 50px 40px;
-  max-width: 430px;
+  padding: 50px 40px;
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
+  color: #fff;
 }
 
 .card__title {
-  color: #fff;
   font-family: Raleway;
   font-size: 22px;
   font-weight: 700;
   line-height: 120%; /* 26.4px */
-  text-decoration-line: underline;
   text-transform: uppercase;
+  /* text-decoration: underline; */
 }
