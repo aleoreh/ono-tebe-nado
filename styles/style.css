@@ -1,1 +1,189 @@
 /* место для вашего кода */
+* {
+  outline: 1px dotted gray;
+}
+
+/* common */
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+/* header */
+
+.header {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.header__wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  align-items: baseline;
+}
+
+.header__links-list-item {
+  list-style-type: none;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+
+.header__links-list-item::before {
+  position: absolute;
+  top: -3px;
+  left: -22px;
+  content: "○";
+  font-size: 22px;
+}
+
+.header__links-list-item:last-child {
+  padding-right: 0;
+}
+
+.header__links-list-item_active {
+  border-bottom: none;
+}
+
+.header__links-list-item_no-bullit::before {
+  content: "";
+}
+
+.header__link {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  align-self: center;
+  justify-self: center;
+  max-width: 148px;
+  min-width: 148px;
+}
+
+/* address */
+
+.address a,
+.address span {
+  display: block;
+}
+
+.address {
+  justify-self: end;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+/* cover */
+
+.cover {
+  padding-top: 165px;
+  padding-bottom: 50px;
+  /* background-color: #eee; */
+  /* background-color: #27194c; */
+  /* background-image: url(../images/cover.jpg); */
+  color: #000;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 135px;
+}
+
+.cover__line_start {
+  align-self: start;
+}
+
+.cover__line_center {
+  align-self: center;
+}
+
+.cover__line_end {
+  align-self: end;
+}
+
+.cover__text {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115%;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.cover__text_widen {
+  letter-spacing: 60px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: right;
+  /* align-content: center; */
+  align-items: center;
+  gap: 50px;
+}
+
+.cover__description-text,
+.cover__action-button {
+  /* color: #fff; */
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px; /* 127.273% */
+  text-transform: uppercase;
+}
+
+.bet-button {
+  padding: 12px 32px 12px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* lots */
+
+.lots__card-list-item {
+  list-style: none;
+}
+
+/* card */
+
+.card {
+  position: relative;
+  padding: 40px 50px 40px;
+  max-width: 430px;
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+}
+
+.card__title {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
