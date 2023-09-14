@@ -102,15 +102,15 @@
   padding-top: 165px;
   padding-bottom: 50px;
   /* background-color: #eee; */
-  /* background-color: #27194c; */
-  /* background-image: url(../images/cover.jpg); */
+  background-color: #27194c;
+  background-image: url(../images/cover.jpg);
   color: #000;
 }
 
 .cover__title {
   display: flex;
   flex-direction: column;
-  margin-bottom: 135px;
+  margin-bottom: 121px;
   font-size: 100px;
   font-weight: 700;
   line-height: 123%;
@@ -127,14 +127,6 @@
   align-self: end;
 }
 
-/* .cover__text {
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 123%;
-  text-transform: uppercase;
-  letter-spacing: 24px;
-} */
-
 .letter-spacing-extended {
   letter-spacing: 35px;
 }
@@ -150,14 +142,22 @@
 .cover__description {
   display: flex;
   justify-content: right;
-  /* align-content: center; */
   align-items: center;
-  gap: 50px;
+  gap: 79px;
+  color: #fff;
+}
+
+.cover__description-text {
+  word-spacing: 17px;
+}
+
+.word-spacing-extended {
+  word-spacing: 22px;
 }
 
 .cover__description-text,
-.cover__action-button {
-  /* color: #fff; */
+.bet-button {
+  color: inherit;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
