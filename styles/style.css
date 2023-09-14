@@ -50,10 +50,10 @@
 
 .header__links-list-item::before {
   position: absolute;
-  top: -3px;
-  left: -22px;
+  top: 0;
+  left: -20px;
   content: "○";
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .header__links-list-item:last-child {
@@ -77,8 +77,9 @@
   display: block;
   align-self: center;
   justify-self: center;
-  max-width: 148px;
-  min-width: 148px;
+  width: 137px;
+  /* width: 137px; */
+  padding-top: 2px;
 }
 
 /* address */
