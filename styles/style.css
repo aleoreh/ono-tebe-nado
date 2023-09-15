@@ -198,7 +198,7 @@
   flex-grow: 1;
   min-height: 450px;
   list-style: none;
-  flex-basis: 420px;
+  flex-basis: 430px;
 }
 
 .lots__look-more-link {
@@ -248,4 +248,31 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
+}
+
+/* about */
+
+.about .container {
+  display: flex;
+  gap: 25px;
+}
+
+.about__column_fixed {
+}
+
+.about__logo-wrapper {
+}
+
+.about__logo {
+  display: block;
+  width: 240px;
+  height: 240px;
+  margin-left: 95px;
+  margin-right: 95px;
+  padding: 63px 46px 63px 46px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.about__logo-img-wrapper {
 }
