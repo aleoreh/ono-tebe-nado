@@ -1,6 +1,5 @@
-/* место для вашего кода */
 * {
-  outline: 1px dotted gray;
+  /* outline: 1px dotted gray; */
 }
 
 /* common */
@@ -73,9 +72,13 @@
   display: block;
   align-self: center;
   justify-self: center;
+  /* todo: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
   width: 137px;
-  /* width: 137px; */
   padding-top: 2px;
+}
+
+.header__address {
+  justify-self: end;
 }
 
 /* address */
@@ -86,7 +89,6 @@
 }
 
 .address {
-  justify-self: end;
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
@@ -276,9 +278,6 @@
   padding-bottom: 0;
 }
 
-.about__logo-wrapper {
-}
-
 .about__logo {
   display: block;
   width: 240px;
@@ -290,5 +289,37 @@
   background-color: #000;
 }
 
-.about__logo-img-wrapper {
+/* footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  margin-bottom: 90px;
+}
+
+.footer__menu {
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  justify-self: end;
+  align-self: flex-start;
+  list-style: none;
+}
+
+.footer__social-link {
+  display: block;
+  /* todo: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
+  width: 48px;
 }
