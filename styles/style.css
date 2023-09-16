@@ -25,14 +25,11 @@
 /* header */
 
 .header {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.header .container {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .header__links-list {
