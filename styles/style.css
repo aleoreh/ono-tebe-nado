@@ -55,7 +55,7 @@
   padding-right: 0;
 }
 
-.header__links-list-item_active {
+.header__link_active {
   border-bottom: none;
 }
 
@@ -74,7 +74,7 @@
   justify-self: center;
   width: 137px;
   padding-top: 2px;
-  /* todo: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
+  /* TODO: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
 }
 
 .header__address {
@@ -324,5 +324,5 @@
 .footer__social-link {
   display: block;
   width: 48px;
-  /* todo: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
+  /* TODO: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
 }
