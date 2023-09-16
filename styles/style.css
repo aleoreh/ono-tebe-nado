@@ -33,6 +33,7 @@
 
 .header__links-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 32px;
 }
@@ -314,6 +315,7 @@
 
 .footer__social-list {
   display: flex;
+  flex-wrap: wrap;
   align-self: flex-start;
   justify-self: end;
   gap: 48px;
