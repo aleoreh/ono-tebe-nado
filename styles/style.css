@@ -89,7 +89,7 @@
 .address {
   font-size: 18px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 130%;
 }
 
 /* --------- cover -------- */
@@ -112,7 +112,7 @@
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 122px;
+  line-height: 123%;
   letter-spacing: 3px;
 }
 
@@ -161,7 +161,7 @@
   text-align: center;
   text-transform: uppercase;
   color: inherit;
-  line-height: 28px;
+  line-height: 130%;
 }
 
 .bet-button {
