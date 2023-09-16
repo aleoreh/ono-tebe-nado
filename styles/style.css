@@ -170,7 +170,7 @@
   padding: 12px 32px;
   border: 1px solid #fff;
   background-color: transparent;
-  font-family: inherit;
+  font-family: Raleway, sans-serif;
   cursor: pointer;
 }
 
@@ -242,7 +242,6 @@
 .card__title {
   position: relative;
   z-index: 2;
-  font-family: Raleway;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
