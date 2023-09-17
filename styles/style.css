@@ -96,6 +96,9 @@
   padding-top: 165px;
   background-color: #27194c;
   background-image: url(../images/cover.jpg);
+  background-position: left top -15px;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
