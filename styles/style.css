@@ -83,15 +83,16 @@
 
 /* -------- address ------- */
 
-.address a,
-.address span {
-  display: block;
-}
-
 .address {
   font-size: 18px;
   font-style: normal;
   line-height: 130%;
+  max-width: 45%;
+}
+
+.address a,
+.address p {
+  display: block;
 }
 
 /* --------- cover -------- */
