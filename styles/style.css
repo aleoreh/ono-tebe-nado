@@ -84,11 +84,10 @@
   font-style: normal;
   line-height: 130%;
   max-width: 45%;
-}
-
-.address a,
-.address p {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  align-items: start;
 }
 
 /* --------- cover -------- */
