@@ -52,16 +52,13 @@
 }
 
 .header__link {
+  font-size: 18px;
+  text-decoration: none;
   border-bottom: 1px solid #000;
 }
 
 .header__link_active {
   border-bottom: none;
-}
-
-.header__link {
-  font-size: 18px;
-  text-decoration: none;
 }
 
 .header__logo {
