@@ -67,10 +67,10 @@
 .header__logo {
   display: block;
   align-self: center;
-  justify-self: center;
-  width: 137px;
+  justify-self: stretch;
+  padding-left: calc((100% - 137px) / 2);
+  padding-right: calc((100% - 137px) / 2);
   padding-top: 2px;
-  /* TODO: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
 }
 
 .header__address {
