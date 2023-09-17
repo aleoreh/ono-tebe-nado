@@ -318,13 +318,11 @@
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
-  justify-self: end;
+  justify-content: end;
   gap: 48px;
   list-style: none;
 }
 
-.footer__social-link {
-  display: block;
-  width: 48px;
-  /* TODO: Как избавиться от жёсткого width? firefox и chrome min-width воспринимают по-разному */
+.footer__social-list-item {
+  flex-basis: 48px;
 }
